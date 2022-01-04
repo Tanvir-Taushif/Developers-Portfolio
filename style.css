@@ -8,8 +8,9 @@ h1{
 #name{
     color: rgb(29, 149, 189);
 }
-section{
+.mainframe{
     display: flex;
+    margin-bottom: 70px;
 }
 .half-width{
     width: 60%;
@@ -30,9 +31,24 @@ section{
     padding: 10px 20px;
     font-weight: 700px;
     border-radius: 5px;
-    background-image: linear-gradient(rgb(5,95,131),rgb(8, 161, 221));
+    background-image: linear-gradient(270deg,rgb(5,95,131),rgb(8, 161, 221));
 }
 #top-banner{
     background-image: url(images/topcorner.jpg);
     background-repeat: no-repeat;
+}
+#education{
+    margin-left: 15px;
+}
+.individual{
+    width: 33.33%;
+    text-align: center;
+    background-color:rgb(37, 165, 240);
+    background-image:linear-gradient(rgb(11, 84, 129),rgb(37, 165, 240));
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px grey;
+}
+.individual p{
+    font-weight: 800;
 }
