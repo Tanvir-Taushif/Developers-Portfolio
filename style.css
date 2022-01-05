@@ -52,3 +52,11 @@ h1{
 .individual p{
     font-weight: 800;
 }
+#Experience h1{
+    margin-left: 80%;
+    text-shadow: 2px 2px 2px grey;
+}
+#lowimage{
+    width: 40%;
+    margin-left: 15px;
+}
